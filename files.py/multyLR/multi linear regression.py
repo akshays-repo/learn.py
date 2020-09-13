@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd 
 
 # Importing the dataset
-dataset = pd.read_csv('50_Startups.csv')
+dataset = pd.read_csv('/home/akshays/Desktop/learn.py/files.py/multyLR/50_Startups.csv')
 X = dataset.iloc[:, :-1]
 print(X)
 y = dataset.iloc[:, 4]
