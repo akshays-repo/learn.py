@@ -19,7 +19,7 @@ class OurNeuralNetwork:
     self.w4 = np.random.normal()
     self.w5 = np.random.normal()
     self.w6 = np.random.normal()
-
+    print(self.w1, self.w2, self.w3, self.w4, self.w5)
     # Biases
     self.b1 = np.random.normal()
     self.b2 = np.random.normal()
@@ -119,8 +119,22 @@ print("Frank: %.3f" % network.feedforward(frank))
 
 
 
+data = np.array([
+  [-2, -1],  # Alice
+  [25, 6],   # Bob
+  [17, 4],   # Charlie
+  [-15, -6], # Diana
+])
+all_y_trues = np.array([
+  1, # Alice
+  0, # Bob
+  0, # Charlie
+  1, # Diana
+])
 
-
+for x, y_true in zip(data, all_y_trues):
+    print(x, y_true )
+     
 
 
 
