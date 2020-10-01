@@ -129,7 +129,8 @@ all_y_trues = np.array([
   1, # Alice
   0, # Bob
   0, # Charlie
-  1, # Diana
+  1,
+  3# Diana
 ])
 
 for x, y_true in zip(data, all_y_trues):

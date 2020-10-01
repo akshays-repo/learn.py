@@ -1,6 +1,6 @@
 import pandas as pd 
 import numpy as np
-uni = pd.read_csv("Universities.csv")
+uni = pd.read_csv("/home/akshays/programs/learn.py/files.py/PCA/Universities.csv")
 uni.describe()
 uni.head()
 
@@ -47,4 +47,4 @@ from sklearn.cluster import KMeans
 
 kmeans = KMeans(n_clusters = 3)
 kmeans.fit(new_df)
-kmeans.labels_
+l =kmeans.labels_
