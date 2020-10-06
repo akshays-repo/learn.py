@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv("/home/akshays/Desktop/learn.py/files.py/df/salary1.csv")
+data = pd.read_csv("/home/akshays/programs/learn.py/files.py/decisiontree/salary1.csv")
 print(data)
 data.head()
 print(data['Salary'].unique())
