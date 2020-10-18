@@ -9,4 +9,3 @@ cv2.imshow('image1',img)
 cv2.imshow('image2',img2)
 cv2.waitKey()
 cv2.destroyAllWindows()
-
