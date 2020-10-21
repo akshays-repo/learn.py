@@ -1,7 +1,5 @@
 import cv2
-import sys
 
-cascPath = sys.argv[0]
 faceCascade = cv2.CascadeClassifier("/home/akshays/programs/learn.py/files.py/practicing_project/haarcascade_frontalface_default.xml")
 
 video_capture = cv2.VideoCapture(0)
@@ -19,8 +17,7 @@ while True:
         minSize=(30, 30),
         flags=cv2.CASCADE_SCALE_IMAGE
     )
-
-    # Draw a rectangle around the faces
+    print(faces)    # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
