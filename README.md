@@ -2,6 +2,7 @@
 
 # Topic 
 
+## Machine Learning Algorithms
 1  Hierarchical clustering  <br />
 2  K MEAN <br />
 3  Logistic regression  <br />
@@ -17,3 +18,6 @@
 13 naivebayes  <br />
 14 preprocessing  <br />
 15 simplelinearRegression  <br />
+
+## Computer Vision
+1  OpenCv
